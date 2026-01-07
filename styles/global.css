@@ -1,0 +1,129 @@
+body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+    color: var(--text-primary);
+}
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #f5f5f5;
+    --tertiary-color: #000;
+
+    --text-primary: #222222;
+    --text-secondary: #ffffff;
+
+    --button-primary: #8F0101;
+    --button-secondary: #B81515;
+
+    --title-weight: 700;
+    --menu-text-weight: 500;
+    --text-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+    font-style: normal;
+    font-display: swap; // carrega a fonte mais próxima e depois carrega a fonte desejada
+}
+
+.section-title h2 {
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    margin: 0;
+    text-align: center;
+}
+
+.section-title hr {
+    width: 180px;
+    height: 4px;
+    margin: 16px auto 32px;
+    background-color: var(--button-secondary);
+    border: none;
+    margin-bottom: 32px;
+}
+
+.button {
+    min-width: 280px;
+    height: 64px;
+    color: var(--text-secondary);
+    font-weight: var(--title-weight);
+    font-size: 20px;
+    background-color: var(--button-secondary);
+    border-radius: 16px;
+    display: inline-block;
+    text-decoration: none !important;
+    text-align: center;
+    line-height: 64px;
+}
+
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
+section.hero {
+  width: 100%;
+  margin: 0;
+}
+
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
+
+.section-title h2 {
+    margin-top: 80px;
+    font-size: 28px;
+    font-weight: var(--title-weight);
+}
+
+.content-title {
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    margin: 0 0 24px;
+}
+
+.content-text {
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
+@media screen and (min-width:768px) {
+
+    section {
+        width: 648px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .section-title {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    section {
+        width: 900px;
+    }
+
+    .button:hover {
+        background-color: var(--button-primary);
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+    section {
+        width: 1200px;
+    }
+}

@@ -1,64 +1,9 @@
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --primary-color: #ffffff;
-    --secondary-color: #f5f5f5;
-    --tertiary-color: #000;
-
-    --text-primary: #222222;
-    --text-secondary: #ffffff;
-
-    --button-primary: #8F0101;
-    --button-secondary: #B81515;
-
-    --title-weight: 700px;
-    --menu-text-weight: 500px;
-    --text-weight: 400px;
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
-    font-style: normal;
-    font-display: swap; // carrega a fonte mais próxima e depois carrega a fonte desejada
-}
-
-header {
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 138px;
-}
-
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: var(--title-weight);
-    font-size: 2.5rem;
-    color: var(--text-secondary);
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-}
-
-li {
-    padding: 0 15px;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: var(--primary-color);
-}
-
-a:hover{
-    text-decoration: underline;
-}
+@import url("../styles/global.css");
+@import url("../styles/header.css");
+@import url("../styles/hero.css");
+@import url("../styles/ofertas.css");
+@import url("../styles/categorias.css");
+@import url("../styles/destinos.css");
+@import url("../styles/pagamentos.css");
+@import url("../styles/testemonials.css");
+@import url("../styles/footer.css");

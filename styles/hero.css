@@ -1,0 +1,211 @@
+.hero .hero-img,
+.bottom-hero .hero-img {
+  height: 400px;
+  width: 100%
+}
+
+.bottom-hero {
+    width: 100%;
+    margin: 0;
+}
+
+.hero .hero-img {
+    background-image: url("../img/mobile/banner-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottom-hero .hero-img {
+    background-image: url("../img/mobile/rodape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pacotes.bottom-hero .hero-img{
+    background-image: url("../img/mobile/bottom-hero-japao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+} 
+
+.hero h2 {
+    padding: 88px 24px;
+    margin: 0px;
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.pacote-viagem.hero {
+    margin-bottom: 80px;
+}
+
+.pacote-viagem .hero-img {
+    background-image: url("../img/mobile/fuji.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.pacote-viagem .hero-content {
+    padding: 65px 24px;
+}
+
+.pacote-viagem .hero-content h1 {
+    font-size: 48px !important;
+    color: var(--primary-color);
+    font-weight: var(--title-weight);
+}
+
+.pacote-viagem .hero-content hr{
+    width: 180px;
+    height: 4px;
+    margin: 16px 0 32px;
+    background-color: var(--button-secondary);
+    border: none;
+}
+
+.pacote-viagem-texto {
+    color: var(--secondary-color);
+    line-height: 32px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero .hero-img {
+        width: 100%;
+        height: 620px;
+        background-image: url("../img/banner-tablet.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bottom-hero .hero-img {
+        height: 400px;
+        background-image: url("../img/tablet/rodapé.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pacotes.bottom-hero .hero-img{
+        background-image: url("../img/tablet/bottom-hero-tablet-jp.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    } 
+
+
+    .hero h2 {
+        padding: 88px 60px;
+        font-size: 32px;
+    }
+
+    .pacote-viagem .hero-img {
+        background-image: url("../img/tablet/fuji-tablet.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 620px;
+        background-position: bottom right;
+    }
+
+    .pacote-viagem .hero-content {
+        padding: 120px 70px 107px;
+    }
+
+    .pacote-viagem-texto {
+        color: var(--secondary-color);
+        line-height: 48px;
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+     .hero .hero-img {
+        width: 100%;
+        background-image: url("../img/banner.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .bottom-hero .hero-img {
+        height: 600px;
+        background-image: url("../img/rodape.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pacotes.bottom-hero .hero-img{
+        background-image: url("../img/bottom-hero-desk-japao.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    } 
+
+
+    .hero h2 {
+        padding: 88px 120px;
+    }
+
+    .pacote-viagem .hero-content {
+        padding: 150px 120px 170px;
+        margin: 0 auto;
+    }
+
+    .pacote-viagem .hero-img {
+        width: 100%;
+        background-image: url("../img/fuji-desk.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .pacote-viagem-texto {
+        width: 570px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .pacote-viagem .hero-content {
+        width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+     .hero .hero-img {
+        width: 100%;
+        background-image: url("../img/banner.jpg");
+        background-repeat: no-repeat;
+    }
+
+    .bottom-hero .hero-img {
+        background-image: url("../img/rodape.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pacotes.bottom-hero .hero-img{
+        background-image: url("../img/bottom-hero-pc-jp.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    } 
+
+
+    .hero h2 {
+        padding: 88px 160px;
+    }
+
+    .pacote-viagem.hero {
+        margin-bottom: 0;
+    }
+
+    .pacote-viagem .hero-content {
+        padding: 65px 24px;
+    }
+
+    .pacote-viagem .hero-img {
+        background-image: url("../img/fuji-pc.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
