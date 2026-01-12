@@ -28,6 +28,13 @@
     background-position: bottom;
 } 
 
+.contatos.bottom-hero .hero-img{
+    background-image: url("../img/mobile/bottom-contato-rodape-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
 .hero h2 {
     padding: 88px 24px;
     margin: 0px;
@@ -72,6 +79,42 @@
     font-size: 20px;
 }
 
+.contato.hero {
+    margin-bottom: 80px;
+}
+
+.contato .hero-img {
+    background-image: url("../img/mobile/Banner-contato.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.contato .hero-content {
+    padding: 65px 24px;
+}
+
+.contato .hero-content h1 {
+    font-size: 48px !important;
+    color: var(--primary-color);
+    font-weight: var(--title-weight);
+}
+
+.contato .hero-content hr{
+    width: 180px;
+    height: 4px;
+    margin: 16px 0 32px;
+    background-color: var(--button-secondary);
+    border: none;
+}
+
+.contato-texto {
+    color: var(--secondary-color);
+    line-height: 32px;
+    font-size: 20px;
+}
+
+
 @media screen and (min-width: 768px) {
     .hero .hero-img {
         width: 100%;
@@ -95,14 +138,20 @@
         background-position: bottom;
     } 
 
+    .contatos.bottom-hero .hero-img{
+        background-image: url("../img/tablet/bottom-contato-tablet.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
     .hero h2 {
         padding: 88px 60px;
         font-size: 32px;
     }
 
-    .pacote-viagem .hero-img {
-        background-image: url("../img/tablet/fuji-tablet.png");
+    .contato .hero-img {
+        background-image: url("../img/tablet/Banner-contato-tablet.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 620px;
@@ -114,6 +163,22 @@
     }
 
     .pacote-viagem-texto {
+        color: var(--secondary-color);
+        line-height: 48px;
+        font-size: 32px;
+    }
+
+    .contato .hero-content {
+        padding: 120px 70px 107px;
+    }
+
+    .contato{
+        color: var(--secondary-color);
+        line-height: 48px;
+        font-size: 32px;
+    }
+
+    .contato-texto {
         color: var(--secondary-color);
         line-height: 48px;
         font-size: 32px;
@@ -141,6 +206,12 @@
         background-position: bottom;
     } 
 
+    .contatos.bottom-hero .hero-img{
+        background-image: url("../img/bottom-contato-desk.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    } 
 
     .hero h2 {
         padding: 88px 120px;
@@ -161,11 +232,31 @@
     .pacote-viagem-texto {
         width: 570px;
     }
+
+    .contato .hero-content {
+        padding: 150px 120px 170px;
+        margin: 0 auto;
+    }
+
+    .contato .hero-img {
+        width: 100%;
+        background-image: url("../img/banner-contato-desk.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .contato-texto {
+        width: 570px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     .pacote-viagem .hero-content {
         width: 1200px;
+    }
+
+    .contato .hero-content {
+       width: 1200px;
     }
 }
 
@@ -189,6 +280,12 @@
         background-position: bottom;
     } 
 
+    .contatos.bottom-hero .hero-img{
+        background-image: url("../img/bottom-contato-rodape.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    } 
 
     .hero h2 {
         padding: 88px 160px;
@@ -204,6 +301,21 @@
 
     .pacote-viagem .hero-img {
         background-image: url("../img/fuji-pc.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .contato.hero {
+        margin-bottom: 0;
+    }
+
+    .contato .hero-content {
+        padding: 65px 24px;
+    }
+
+    .contato .hero-img {
+        background-image: url("../img/Banner-contato.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

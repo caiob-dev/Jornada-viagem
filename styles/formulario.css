@@ -1,0 +1,118 @@
+.formulario  {
+    margin-top: 80px;
+}
+
+.formulario-content-text-title h2 {
+    font-size: 32px;
+    color: var(--tertiary-color);
+    font-weight: var(--title-weight);
+    margin: 0;
+}
+
+.formulario-text-texto {
+    padding: 6px 15px 56px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.formulario .formulario-text-title hr{
+    width: 180px;
+    height: 4px;
+    margin: 16px auto 32px;
+    background-color: var(--button-secondary);
+    border: none;
+}
+
+.formulario-text-texto p {
+   line-height: 28px;
+   color: var(--text-primary);  
+}
+
+.formulario-input form {
+    display: flex;
+    /* padding: 0 24px; */
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 64px;
+}
+
+.input{
+    border: none;                 /* remove todas as bordas */
+    border-bottom: 2px solid #ccc;/* mantém só a de baixo */
+    outline: none;                /* remove a borda azul padrão ao clicar */
+    border-bottom: 2px solid #D9D9D9;
+    height: 40px;
+    font-size: 20px;
+}
+
+.input::placeholder {
+    font-size: 20px;
+    color: #D9D9D9;
+    transition: color 0.2s ease;
+}
+
+.input:focus::placeholder {
+    color: var(--text-primary);
+}
+
+.input:focus {
+    border-bottom: 2px solid var(--button-primary);
+}
+
+.formulario-input textarea {
+    border: 2px solid #ccc;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+} 
+
+.formulario-input textarea::placeholder {
+    font-size: 20px;
+    color: #D9D9D9;
+    transition: color 0.2s ease;
+}
+
+.formulario-input textarea:focus::placeholder {
+   color: var(--text-primary);
+}
+
+.formulario-input textarea:focus {
+    border: 2px solid var(--button-primary);
+}
+
+.botao {
+    background-color: var(--button-secondary);
+    color: var(--secondary-color);
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 312px;
+}
+
+.botao:hover {
+    background-color: var(--button-primary);
+}
+
+@media screen and (min-width: 768px) {
+    
+    .formulario-text-title h2 {
+        text-align: center;
+    }
+
+    .formulario-text-texto p {
+        line-height: 28px;
+        color: var(--text-primary);  
+        font-size: 20px;
+    }
+
+    .formulario-input form .botao {
+       margin: 0 auto ;
+    }
+}
+
+@media screen and (min-width: 1440px) {    
+}
+
+@media screen and (min-width: 1920px) {
+}
