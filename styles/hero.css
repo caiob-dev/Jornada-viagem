@@ -150,6 +150,14 @@
         font-size: 32px;
     }
 
+     .pacote-viagem .hero-img {
+        background-image: url("../img/tablet/fuji-tablet.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 620px;
+        background-position: right;
+    }
+
     .contato .hero-img {
         background-image: url("../img/tablet/Banner-contato-tablet.png");
         background-size: cover;
@@ -227,6 +235,7 @@
         background-image: url("../img/fuji-desk.png");
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: right;
     }
 
     .pacote-viagem-texto {
