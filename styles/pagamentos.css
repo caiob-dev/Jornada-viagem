@@ -101,14 +101,19 @@
 
     .payments .content-container .image-content .first.image {
         background-image: url("../img/pay-1.jpg");
+        background-position: bottom;
+        background-position: center;
+        flex-grow: 1;
     }
 
     .payments .content-container .image-content .second.image {
         background-image: url("../img/pay-2.jpg");
+        background-position: center;
     }
 
     .payments .content-container .image-content .third.image {
         background-image: url("../img/pay-3.jpg");
+        background-position: bottom;
     }
 
      .payments .content-container .image-content-japao .first.image {

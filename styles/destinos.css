@@ -26,6 +26,18 @@
    background-size: cover;
 }
 
+.destinations .item.hiroshima .img-item{
+   background-image: url("../img/mobile/Hiroshima-mobile.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.destinations .item.kyoto .img-item{
+   background-image: url("../img/mobile/Kyoto-mobile.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
 .destinations .item header h3 {
   margin: 24px 0;
 }
@@ -48,15 +60,27 @@
   }
   
   .destinations .item.tokyo .img-item  {
-        background-image: url("../img/tablet/destino1-tablet.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+      background-image: url("../img/tablet/destino1-tablet.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
   }   
 
   .destinations .item.osaka .img-item{
-        background-image: url("../img/tablet/destino2-tablet.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+      background-image: url("../img/tablet/destino2-tablet.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .destinations .item.hiroshima .img-item{
+    background-image: url("../img/tablet/Hiroshima-tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .destinations .item.kyoto .img-item{
+    background-image: url("../img/tablet/Kyoto-tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .destinations .button {
@@ -74,6 +98,27 @@
     height: 452px;
   }
 
+  .destinations .item.hiroshima .img-item{
+    background-image: url("../img/Hiroshima-desk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+   .destinations .item.osaka .img-item{
+    background-image: url("../img/Osaka-desk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .destinations .item.kyoto .img-item{
+    background-image: url("../img/Kyoto-desk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+
   .footer-btn {
     display: flex; justify-content: flex-end;"
   }
@@ -85,4 +130,11 @@
   .destination-items {
     flex-direction: row;
   }
+
+    .destinations .item.tokyo .img-item  {
+      background-image: url("../img/destino1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }  
 }

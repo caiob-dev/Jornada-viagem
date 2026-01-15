@@ -114,6 +114,41 @@
     font-size: 20px;
 }
 
+.blog.hero {
+    margin-bottom: 80px;
+}
+
+.blog .hero-img {
+    background-image: url("../img/mobile/blog-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.blog .hero-content {
+    padding: 65px 24px;
+}
+
+.blog .hero-content h1 {
+    font-size: 48px !important;
+    color: var(--primary-color);
+    font-weight: var(--title-weight);
+}
+
+.blog .hero-content hr{
+    width: 180px;
+    height: 4px;
+    margin: 16px 0 32px;
+    background-color: var(--button-secondary);
+    border: none;
+}
+
+.blog-texto {
+    color: var(--secondary-color);
+    line-height: 32px;
+    font-size: 20px;
+}
+
 
 @media screen and (min-width: 768px) {
     .hero .hero-img {
@@ -180,13 +215,25 @@
         padding: 120px 70px 107px;
     }
 
-    .contato{
+    .contato-texto {
         color: var(--secondary-color);
         line-height: 48px;
         font-size: 32px;
     }
 
-    .contato-texto {
+     .blog .hero-content {
+        padding: 120px 70px 107px;
+    }
+
+    .blog .hero-img {
+        background-image: url("../img/tablet/blog-hero.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 620px;
+        background-position: bottom right;
+    }
+
+    .blog-texto {
         color: var(--secondary-color);
         line-height: 48px;
         font-size: 32px;
@@ -257,6 +304,22 @@
     .contato-texto {
         width: 570px;
     }
+
+    .blog .hero-content {
+        padding: 150px 120px 170px;
+        margin: 0 auto;
+    }
+
+    .blog .hero-img {
+        width: 100%;
+        background-image: url("../img/blog-hero-desk.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .blog-texto {
+        width: 570px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -265,6 +328,10 @@
     }
 
     .contato .hero-content {
+       width: 1200px;
+    }
+
+     .blog .hero-content {
        width: 1200px;
     }
 }
@@ -325,6 +392,17 @@
 
     .contato .hero-img {
         background-image: url("../img/Banner-contato.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .blog .hero-content {
+        padding: 65px 24px;
+    }
+
+    .blog .hero-img {
+        background-image: url("../img/blog-hero-desk.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
