@@ -44,7 +44,6 @@
     background-repeat: no-repeat;
 }
    
-
 .payments .content-container .image-content .third.image.colspan-2,
 .payments .content-container .image-content-japao .third.image.colspan-2{
     grid-column: span 2;
@@ -54,14 +53,17 @@
 @media screen and (min-width: 768px) {
     .payments .content-container .image-content .first.image {
         background-image: url("../img/tablet/pay-1.jpg");
+        background-position: center;
     }
 
     .payments .content-container .image-content .second.image {
         background-image: url("../img/tablet/pay-2.jpg");
+        background-position: center;
     }
 
     .payments .content-container .image-content .third.image {
         background-image: url("../img/tablet/pay-3.jpg");
+        background-position: bottom;
     }
 
     .payments .content-container .image-content-japao .first.image {
